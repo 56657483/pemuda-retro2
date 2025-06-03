@@ -5,7 +5,7 @@ body background color: #261FB3;
 */
 
 body {
-    background-color: #ECDFCC;
+    background-color: white;
 margin: 0;
 font-family: Arial, Arial, Helvetica, sans-serif;
 }
@@ -37,7 +37,7 @@ nav ul li a {
     font-size: larger;
 }
 nav ul li a:hover {
-    color: #261FB3;
+    color: #ffffff;
     text-decoration-line: underline;
     text-underline-offset: 8px;
     text-decoration-color: #ECDFCC;
@@ -121,4 +121,13 @@ nav ul li a:hover {
   
   .card button:hover {
     opacity: 0.7;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #344CB7;
+    color: #ffffff;
+    padding: 25px;
+    font-weight: bold;
+    border-radius: 0 60px 0 60px;
   }
